@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+header{
+    height: 60px;
+}
+
+.criar-login{
+    display: flex;
+    padding: 0px 32px;
+}
+
+form{
+    padding: 20px;
+    width: 50%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-right: 160px;
+    margin-left: 70px;
+}
+
+h1{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.form-control{
+    height: 43px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+label{
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    display: flex;
+}
+
+input[type="checkbox"]{
+    accent-color: #85F581;
+    width: 22px;
+}
+.label-checkbox{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+
+button{
+    margin-top: 50px;
+    background-color: #85F581;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 36px;
+    font-weight: 500;
+    font-weight: 600;
+    color: #333;
+}
+
+img{
+    width: 300px;
+}
+
+footer{
+    margin-top: 20px;
+    height: 80px;
+    background-color: rgb(226, 225, 225);
+    padding: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
