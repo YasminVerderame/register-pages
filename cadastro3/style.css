@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap');
+
+/* reset css */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* main page */
+.main{
+  font-family: 'Montserrat';
+  padding: 10px;
+}
+.background{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 1;
+}
+.aside{
+  background: #f1d40e78;
+  width: 35%;
+  height: 100%;
+  min-height: 100vh;
+}
+.content{
+  background-color: #fff;
+  width: 65%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* content */
+.form{
+  z-index: 3;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 40px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  display: flex;
+}
+
+aside{
+  text-align: center;
+  width: calc(36% - 20px);
+  background-color: #F8F8F8;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.cadastro{
+  width: 45%;
+  z-index: 5;
+  padding: 30px 0px 0px 50px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+h1{
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+label{
+  display: block;
+}
+
+.form-control{
+  height: 36px;
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+
+input[type=checkbox] {
+  accent-color: #f1d40e78;
+}
+
+.checkbox{
+  display: flex;
+}
+.checkbox input{
+  width: 15px;
+}
+.label-checkbox{
+  margin-left: 16px;
+  font-size: 13px;
+}
+
+button{
+  margin-top: 20px;
+  border: none;
+  width: 171px;
+  height: 42px;
+  color: #666;
+  background-color: #f1d40e78;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
